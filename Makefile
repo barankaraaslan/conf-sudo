@@ -1,6 +1,6 @@
 .PHONY: install
 install:
-	install -Dm0440 $(DESTDIR)/etc/sudoers.d/baran
+	install -Dm0440 baran $(DESTDIR)/etc/sudoers.d/baran
 
 .PHONY: uninstall
 uninstall:
