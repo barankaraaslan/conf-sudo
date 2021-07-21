@@ -1,1 +1,3 @@
 baran ALL=(ALL) ALL
+
+Defaults passprompt="^G[sudo] password for %p: "
